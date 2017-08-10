@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="log4jstudybussiness" />
+        <module name="log4jstudy-bussiness" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="log4jstudy-bussiness" target="1.5" />
       <module name="log4jstudy-parent" target="1.5" />
-      <module name="log4jstudybussiness" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

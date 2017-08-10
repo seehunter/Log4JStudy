@@ -18,6 +18,7 @@ public class WriteLogImpl implements WriteLog {
     /**
      * 记录日志
      */
+    @InbMonitor(key1 = "key1Test",key2 = 666,key3 = "author zy")
     public void writeLog() {
         logger.info("i just want to have a try");
     }
